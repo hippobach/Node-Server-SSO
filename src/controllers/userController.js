@@ -4,7 +4,7 @@ const db = Datastore.create('src/database/db.json')
 
 const hookLogin = async (req, res) => {
   try {
-    // console.log('req.auth: ', req.auth)
+    console.log('req.auth: ', req.auth)
     // req.auth.header // The decoded JWT header.
     // req.auth.payload // The decoded JWT payload.
     // req.auth.token // The raw JWT token.
